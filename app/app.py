@@ -33,7 +33,7 @@ def preprocess_image(image_path):
 model = load_model(MODEL_PATH)
 
 
-# Define routes
+# Define the routes
 @app.route('/')
 def index():
     return render_template('upload.html')
